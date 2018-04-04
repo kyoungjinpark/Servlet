@@ -12,10 +12,10 @@ public class Main extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		System.out.println("doGet: Main");
+		System.out.println("doGet: 메인 자바 파일");
 		getParam(req);
 		
-		
+		//수정완료
 	}
 
 	@Override
